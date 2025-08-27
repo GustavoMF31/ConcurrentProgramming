@@ -1,0 +1,55 @@
+Executando em minha máquina pessoal, com uma cpu com 2 núcleos físicos e um total de 4 threads lógicas, e com código compilado sem flags de otimização, os resultados foram os seguintes:
+
+Teste 1:
+  Tamanho do vetor: 100
+  Threads: 1
+  Tempo: 0,0042 s
+  Variação: 0
+
+Teste 2:
+  Tamanho do vetor: 50.000
+  Threads: 1
+  Tempo: 0,0060 s
+  Variação: 0
+
+Teste 3:
+  Tamanho do vetor: 1.000.000
+  Threads: 1
+  Tempo: 0,0176 s
+  Variação: 0
+
+Teste 4:
+  Tamanho do vetor: 100
+  Threads: 2
+  Tempo: 0,0048 s
+  Variação: 0.0000001213608840
+
+Teste 5:
+  Tamanho do vetor: 50.000
+  Threads: 2
+  Tempo: 0,0058 s
+  Variação: 0.0000002435374427
+
+Teste 6:
+  Tamanho do vetor: 1.000.000
+  Threads: 2
+  Tempo: 0,0156 s
+  Variação: 0.0000074085915003
+
+Teste 7:
+  Tamanho do vetor: 100
+  Threads: 4
+  Tempo: 0,0046
+  Variação: 0.0000000606804420
+
+Teste 8:
+  Tamanho do vetor: 50.000
+  Threads: 4
+  Tempo: 0,0058
+  Variação: 0.0000013394558209
+
+Teste 9:
+  Tamanho do vetor: 1.000.000
+  Threads: 4
+  Tempo: 0,0152
+  Variação: 0.0000736780420993
